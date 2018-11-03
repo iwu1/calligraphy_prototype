@@ -7,8 +7,8 @@ public class parentScript : MonoBehaviour {
     public Material mat; //material you want to switch to
 
 
-    bool Atriggered;
-    bool Bpresent;
+    public bool Atriggered;
+    // bool Btriggered;
     // Use this for initialization
     void Start () {
         mRend = gameObject.GetComponent<MeshRenderer>();
@@ -18,7 +18,9 @@ public class parentScript : MonoBehaviour {
 	void Update () {
 		if (OVRInput.GetUp(OVRInput.Button.PrimaryIndexTrigger))
         {
-            if (Atriggered && Bpresent)
+            //Atriggered = false;
+            /*
+            if (Atriggered && Btriggered)
             {
                 mRend.material = mat; //change the material to the material you wanted it to change to
             }
@@ -26,27 +28,32 @@ public class parentScript : MonoBehaviour {
             {
                 Atriggered = false;
             }
+            */
         }
 	}
 
 
     public void childTriggered(string name)
     {
-        if (name == "collider_A" && OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+        Debug.Log("trigger on parent");
+        if (name == "collider_A" )//&& OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
             Atriggered = true;
         }
-        else if (name == "collider_B" && Atriggered)
+        if (name == "collider_B" && Atriggered)
         {
-            Bpresent = true;
+            //Btriggered = true;
+            mRend.material = mat; //change the material to the material you wanted it to change to
         }
     }
 
+    /*
     public void childExit(string name)
     {
         if (name == "collider_B")
         {
-            Bpresent = false;
+            Btriggered = false;
         }
     }
+    */
 }

@@ -23,7 +23,7 @@ public class colliderScript : MonoBehaviour {
         }
     }
 
-    void OnTriggerExit(Collider c ) //when you leave it
+    /*void OnTriggerExit(Collider c ) //when you leave it
     {
         if (c.gameObject.tag == "Player")
         {
@@ -31,5 +31,5 @@ public class colliderScript : MonoBehaviour {
             parentScript pScript;
             pScript = transform.parent.GetComponent<parentScript>();
         }
-    }
+    }*/
 }
