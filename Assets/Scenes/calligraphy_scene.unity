@@ -452,6 +452,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &207592972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 207592973}
+  - component: {fileID: 207592975}
+  - component: {fileID: 207592974}
+  m_Layer: 0
+  m_Name: water_b_collider_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &207592973
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207592972}
+  m_LocalRotation: {x: -0, y: 0.999993, z: -0, w: -0.0037436485}
+  m_LocalPosition: {x: 0.00167, y: 0.00872, z: 0.00075}
+  m_LocalScale: {x: 0.15013492, y: 0.14781354, z: 0.08805803}
+  m_Children: []
+  m_Father: {fileID: 888508391}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180.429, z: 0}
+--- !u!114 &207592974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207592972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa8af9e6605e443a92e019b4a0e214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &207592975
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207592972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &234221749
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,6 +638,59 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 303449017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &313170038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 313170039}
+  - component: {fileID: 313170041}
+  - component: {fileID: 313170040}
+  m_Layer: 0
+  m_Name: water_b_collider_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &313170039
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 313170038}
+  m_LocalRotation: {x: -0, y: 0.999993, z: -0, w: -0.0037433505}
+  m_LocalPosition: {x: 0.00517, y: 0.0078, z: 0.00047}
+  m_LocalScale: {x: 0.14420062, y: 0.20080595, z: 0.10981745}
+  m_Children: []
+  m_Father: {fileID: 888508391}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180.42899, z: 0}
+--- !u!114 &313170040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 313170038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa8af9e6605e443a92e019b4a0e214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &313170041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 313170038}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -1155,6 +1261,10 @@ Rigidbody:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 54560d51970e936428a8bd4ee50cdd6f, type: 3}
   m_PrefabInternal: {fileID: 999927481}
+--- !u!4 &795742669 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 54560d51970e936428a8bd4ee50cdd6f, type: 3}
+  m_PrefabInternal: {fileID: 999927481}
 --- !u!114 &795742672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1163,12 +1273,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 795742668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a7e0b273f565b743bd1b9ab001db950, type: 3}
+  m_Script: {fileID: 11500000, guid: de494a45ad5ae624295c21a5d1eb7839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mRend: {fileID: 0}
   mat: {fileID: 2100000, guid: a87cca0ea6d23a3498b37de378f9bfa3, type: 2}
   Atriggered: 0
+  Btriggered: 0
 --- !u!4 &881365617
 Transform:
   m_ObjectHideFlags: 0
@@ -1961,6 +2072,10 @@ MonoBehaviour:
 GameObject:
   m_PrefabParentObject: {fileID: 100002, guid: 54560d51970e936428a8bd4ee50cdd6f, type: 3}
   m_PrefabInternal: {fileID: 999927481}
+--- !u!4 &888508391 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400002, guid: 54560d51970e936428a8bd4ee50cdd6f, type: 3}
+  m_PrefabInternal: {fileID: 999927481}
 --- !u!114 &888508394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1969,12 +2084,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 888508390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a7e0b273f565b743bd1b9ab001db950, type: 3}
+  m_Script: {fileID: 11500000, guid: de494a45ad5ae624295c21a5d1eb7839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mRend: {fileID: 0}
   mat: {fileID: 2100000, guid: a87cca0ea6d23a3498b37de378f9bfa3, type: 2}
   Atriggered: 0
+  Btriggered: 0
 --- !u!1 &914482508 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 157742, guid: 84c8b8609f9bb434eaf5248f17ff1293, type: 2}
@@ -2315,6 +2431,59 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 92e90e2f11c0e4f4d824e3e969f0dde8, type: 3}
   m_PrefabInternal: {fileID: 518640309}
+--- !u!1 &1332112282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1332112283}
+  - component: {fileID: 1332112285}
+  - component: {fileID: 1332112284}
+  m_Layer: 0
+  m_Name: water_b_collider_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1332112283
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332112282}
+  m_LocalRotation: {x: -0, y: 0.99999297, z: -0, w: -0.003743648}
+  m_LocalPosition: {x: 0.00672, y: 0.00275, z: 0.00068}
+  m_LocalScale: {x: 0.12422748, y: 0.126783, z: 0.08910666}
+  m_Children: []
+  m_Father: {fileID: 888508391}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180.429, z: 0}
+--- !u!114 &1332112284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332112282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa8af9e6605e443a92e019b4a0e214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1332112285
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1332112282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1394994663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,6 +2537,112 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee74656b24ae8e449d820fa268183e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1439741332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1439741333}
+  - component: {fileID: 1439741335}
+  - component: {fileID: 1439741334}
+  m_Layer: 0
+  m_Name: water_a_collider_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439741333
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439741332}
+  m_LocalRotation: {x: -0, y: 0.99999297, z: -0, w: -0.0037436183}
+  m_LocalPosition: {x: 0.0039, y: 0.00209, z: 0.00068}
+  m_LocalScale: {x: 0.12422742, y: 0.126783, z: 0.089106604}
+  m_Children: []
+  m_Father: {fileID: 795742669}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180.429, z: 0}
+--- !u!114 &1439741334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439741332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa8af9e6605e443a92e019b4a0e214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1439741335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439741332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1471143073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1471143074}
+  - component: {fileID: 1471143076}
+  - component: {fileID: 1471143075}
+  m_Layer: 0
+  m_Name: water_a_collider_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471143074
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471143073}
+  m_LocalRotation: {x: -0, y: 0.999993, z: -0, w: -0.0037433356}
+  m_LocalPosition: {x: 0.000122, y: 0.012419, z: 0.00048}
+  m_LocalScale: {x: 0.21414907, y: 0.19058289, z: 0.10981744}
+  m_Children: []
+  m_Father: {fileID: 795742669}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180.42899, z: 0}
+--- !u!114 &1471143075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471143073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa8af9e6605e443a92e019b4a0e214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1471143076
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471143073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1535922118 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100014, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
@@ -2956,6 +3231,59 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d4e4f63dd4ea9f6419de3947ef586647, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &2059015266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2059015267}
+  - component: {fileID: 2059015269}
+  - component: {fileID: 2059015268}
+  m_Layer: 0
+  m_Name: water_a_collider_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2059015267
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2059015266}
+  m_LocalRotation: {x: -0, y: 0.999993, z: -0, w: -0.0037436038}
+  m_LocalPosition: {x: 0.00009, y: 0.00088, z: 0.00073}
+  m_LocalScale: {x: 0.17995414, y: 0.15930319, z: 0.08805796}
+  m_Children: []
+  m_Father: {fileID: 795742669}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180.429, z: 0}
+--- !u!114 &2059015268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2059015266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfa8af9e6605e443a92e019b4a0e214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2059015269
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2059015266}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.02}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2113081162
 GameObject:
   m_ObjectHideFlags: 0
