@@ -36,11 +36,11 @@ public class parentScript : MonoBehaviour {
     public void childTriggered(string name)
     {
         Debug.Log("trigger on parent");
-        if (name == "collider_A" )//&& OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
+        if (name.Contains ("collider_A") )//&& OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger))
         {
             Atriggered = true;
         }
-        if (name == "collider_B" && Atriggered)
+        if (name.Contains ("collider_B") && Atriggered)
         {
             //Btriggered = true;
             mRend.material = mat; //change the material to the material you wanted it to change to
