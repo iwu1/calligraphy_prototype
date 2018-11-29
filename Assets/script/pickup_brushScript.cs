@@ -2,24 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pickup_brush : MonoBehaviour {
+public class pickup_brushScript : MonoBehaviour {
     public MeshRenderer mRend;//material renderer of the calligrpahy character
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private void OnTriggerEnter(Collider other)
     {
-        if (gameObject.tag == "hand")
+        if (other.gameObject.tag == "hand")
         {
-
+            print("touched");
+            mRend.enabled = true;
+            Destroy(gameObject);
         }
         
     }
