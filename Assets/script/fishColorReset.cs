@@ -21,7 +21,7 @@ public class fishColorReset : MonoBehaviour
         if (Col.tag == "Player")
         {
             fish_a.material = mat;
-            fish_a.gameObject.GetComponent<parentScript1>().Atriggered = false;
+            fish_a.gameObject.GetComponent<parentScript>().Atriggered = false;
 
             fish_b.material = mat;
             fish_b.gameObject.GetComponent<parentScript1>().Atriggered = false;
@@ -31,7 +31,7 @@ public class fishColorReset : MonoBehaviour
             fish_c.gameObject.GetComponent<parentScript>().Atriggered = false;
 
             fish_d.material = mat;
-            fish_d.gameObject.GetComponent<parentScript>().Atriggered = false;
+            fish_d.gameObject.GetComponent<parentScript1>().Atriggered = false;
             fish_d.gameObject.GetComponent<parentScript1>().Btriggered = false;
 
             fish_e.material = mat;

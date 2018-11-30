@@ -5154,6 +5154,7 @@ GameObject:
   - component: {fileID: 662387427}
   - component: {fileID: 662387429}
   - component: {fileID: 662387428}
+  - component: {fileID: 662387430}
   m_Layer: 0
   m_Name: fish7
   m_TagString: Untagged
@@ -5219,6 +5220,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 662387426}
   m_Mesh: {fileID: 4300038, guid: aa6be62056879b146bb1ad062f6e2f61, type: 3}
+--- !u!95 &662387430
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 662387426}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ae83219c8f46a24e8e55365b926df3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &663978139
 GameObject:
   m_ObjectHideFlags: 0
@@ -5767,7 +5786,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.31
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5775,7 +5794,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 2.297
+      value: 2.53
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5838,6 +5857,7 @@ GameObject:
   - component: {fileID: 743080151}
   - component: {fileID: 743080153}
   - component: {fileID: 743080152}
+  - component: {fileID: 743080154}
   m_Layer: 0
   m_Name: fish5
   m_TagString: Untagged
@@ -5903,6 +5923,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 743080150}
   m_Mesh: {fileID: 4300034, guid: aa6be62056879b146bb1ad062f6e2f61, type: 3}
+--- !u!95 &743080154
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743080150}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f87efce3f91b78641a9c53c0ff2d4118, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &744534989 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 987f3476ce30b4743b082bcc24a55c37, type: 3}
@@ -10743,6 +10781,7 @@ GameObject:
   - component: {fileID: 1675611774}
   - component: {fileID: 1675611776}
   - component: {fileID: 1675611775}
+  - component: {fileID: 1675611777}
   m_Layer: 0
   m_Name: fish2
   m_TagString: Untagged
@@ -10808,6 +10847,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1675611773}
   m_Mesh: {fileID: 4300028, guid: aa6be62056879b146bb1ad062f6e2f61, type: 3}
+--- !u!95 &1675611777
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1675611773}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d9c96e3f10ce5d64eb4a42b488b1d9a0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1679278272
 GameObject:
   m_ObjectHideFlags: 0
@@ -12422,7 +12479,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: e2aa17e45b454d2438fda15e1619ebbf, type: 2}
     - target: {fileID: 2300000, guid: 1b0ad4f2a15878b449fd6c0055aace02, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b0ad4f2a15878b449fd6c0055aace02, type: 3}
