@@ -15,11 +15,14 @@ public class waterColorReset : MonoBehaviour {
             water_a.material = mat;
             water_a.gameObject.GetComponent<parentScript1>().Atriggered = false;
             water_a.gameObject.GetComponent<parentScript1>().Btriggered = false;
+
             water_b.material = mat;
             water_b.gameObject.GetComponent<parentScript1>().Atriggered = false;
-            water_a.gameObject.GetComponent<parentScript1>().Btriggered = false;
+            water_b.gameObject.GetComponent<parentScript1>().Btriggered = false;
+
             water_c.material = mat;
             water_c.gameObject.GetComponent<parentScript>().Atriggered = false;
+
             water_d.material = mat;
             water_d.gameObject.GetComponent<parentScript>().Atriggered = false;
         }
