@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 3933689f0ad53454493e1bc9e10b3ac6
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: rooftiles
+    100004: rooftiles1
+    100006: rooftiles10
+    100008: rooftiles11
+    100010: rooftiles12
+    100012: rooftiles13
+    100014: rooftiles2
+    100016: rooftiles3
+    100018: rooftiles4
+    100020: rooftiles5
+    100022: rooftiles6
+    100024: rooftiles7
+    100026: rooftiles8
+    100028: rooftiles9
+    400000: //RootNode
+    400002: rooftiles
+    400004: rooftiles1
+    400006: rooftiles10
+    400008: rooftiles11
+    400010: rooftiles12
+    400012: rooftiles13
+    400014: rooftiles2
+    400016: rooftiles3
+    400018: rooftiles4
+    400020: rooftiles5
+    400022: rooftiles6
+    400024: rooftiles7
+    400026: rooftiles8
+    400028: rooftiles9
+    2100000: narrow_tile_initialShadingGroup1
+    2100002: wide_tile_initialShadingGroup1
+    2100004: lambert2
+    2300000: rooftiles
+    2300002: rooftiles1
+    2300004: rooftiles10
+    2300006: rooftiles11
+    2300008: rooftiles12
+    2300010: rooftiles13
+    2300012: rooftiles2
+    2300014: rooftiles3
+    2300016: rooftiles4
+    2300018: rooftiles5
+    2300020: rooftiles6
+    2300022: rooftiles7
+    2300024: rooftiles8
+    2300026: rooftiles9
+    3300000: rooftiles
+    3300002: rooftiles1
+    3300004: rooftiles10
+    3300006: rooftiles11
+    3300008: rooftiles12
+    3300010: rooftiles13
+    3300012: rooftiles2
+    3300014: rooftiles3
+    3300016: rooftiles4
+    3300018: rooftiles5
+    3300020: rooftiles6
+    3300022: rooftiles7
+    3300024: rooftiles8
+    3300026: rooftiles9
+    4300000: rooftiles
+    4300002: rooftiles1
+    4300004: rooftiles2
+    4300006: rooftiles3
+    4300008: rooftiles4
+    4300010: rooftiles5
+    4300012: rooftiles6
+    4300014: rooftiles7
+    4300016: rooftiles8
+    4300018: rooftiles9
+    4300020: rooftiles10
+    4300022: rooftiles11
+    4300024: rooftiles12
+    4300026: rooftiles13
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
